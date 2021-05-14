@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/stylemain.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <header>
+        <h2>
+            truYum
+            <a href="main.html">
+            <img src=".\images\logo.jpg" alt="logo">
+        </a>
+            <a href="MenuItemListAdmin.html" class="Menu">Menu</a>
+        </h2>
+    </header>
+    <div class='body container'>
+        <h2>Edit Menu Item</h2>
+        <div>
+            <form action="EditMenuItemStatus.html">
+                <div class="form-group">
+                    <label for="pname">Name</label>
+                    <input type="text" class="form-control" id="prodname">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="price">Price (Rs.)</label>
+                        <input type="text" class="form-control" id="price">
+                    </div>
+                    <div class="form-group col-md-2" style="margin: 0px 20px;">
+                        <label for="active">Active</label><br>
+                        <div style="padding: 5px;">
+                            <input type="radio" id="active" checked><label>Yes</label>&nbsp;&nbsp;
+                            <input type="radio" id="active"><label>No</label>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="dateOfLaunch">Date of Launch</label>
+                        <input type="date" class="form-control" id="dateOfLaunch">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="category">Category</label>
+                        <select id="category" class="form-control">
+                            <option selected>Choose</option>
+                            <option value="Starters">Starters</option>
+                            <option value="Main Course">Main Course</option>
+                            <option value="Dessert">Dessert</option>
+                            <option value="Drinks">Drinks</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="freeDelivery">
+                        <label class="form-check-label" for="gridCheck">
+                            Free Delivery
+                        </label>
+                    </div>
+                </div>
+                <button type="submit">Save</button>
+            </form>
+
+            
+        
+        </div>
+    </div>
+    <footer>
+        <p>
+        Copyright &#169 2019
+        </p>
+    </footer>
+    
+</body>
+</html>

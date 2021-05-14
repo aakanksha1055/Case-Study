@@ -1,0 +1,32 @@
+[
+    {
+      "id": "1",
+      "Name": "Sandwich",
+      "Price": "Rs. 99.00",
+      "Active": "Yes",
+      "DateofLaunch": "15/03/2017",
+      "Category": "Main Course",
+      "FreeDelivery": "Yes",
+      "Action": "Edit"
+    },
+    {
+      "id": "2",
+      "Name": "Burger",
+      "Price": "Rs. 99.00",
+      "Active": "Yes",
+      "DateofLaunch": "15/03/2017",
+      "Category": "Main Course",
+      "FreeDelivery": "Yes",
+      "Action": "Edit"
+    },
+    {
+      "id": "3",
+      "Name": "Pizza",
+      "Price": "Rs. 99.00",
+      "Active": "Yes",
+      "DateofLaunch": "15/03/2017",
+      "Category": "Main Course",
+      "FreeDelivery": "Yes",
+      "Action": "Edit"
+    }
+  ]

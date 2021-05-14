@@ -1,0 +1,43 @@
+header,button{
+    background-color:rgb(15, 15, 109) ;
+    color: white;
+    top: 0;
+    position: relative;
+    width: 100%;
+}
+img{
+height:50px;
+width: 50px;
+
+}
+.body{
+    position:relative;
+}
+.navbar{
+    color: white;
+    float: right;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    height: 50px;
+    width: 250px;
+    margin-top: 15%;
+    margin-left: 25%;
+
+}
+th{
+    font-weight: bold;
+}
+.notif{
+    font-weight: bold;
+    color: green;
+}
+footer{
+    background-color: rgb(175, 172, 172);
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+}
